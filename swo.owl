@@ -1,0 +1,2829 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/josan/ontologies/2023/3/swo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/josan/ontologies/2023/3/swo"
+     versionIRI="http://www.semanticweb.org/josan/ontologies/2023/3/swo/1.0.0">
+    <Prefix name="" IRI="http://www.semanticweb.org/josan/ontologies/2023/3/swo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal>Spanish Wine Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <Literal>Jose Luis Sanchez Escoda</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <IRI>https://creativecommons.org/licenses/by/3.0/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>Version release: 3.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Adequate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusinessDinner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DessertWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exceptional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FewReviews"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormalDinner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FruitWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullBodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garnache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighAcidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lambrusco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LightBodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowAcidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManyReviews"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MatureWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumAcidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumBodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midrange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OldWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Premium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiberaDelDueroRed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiojaWhite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanticDinner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoseWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satisfactory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SomeReviews"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SparklingWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verdejo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineAcidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineColor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WinePrice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WineReviews"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YoungWine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAcidity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBody"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColorInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReviews"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWinery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#matchWithContext"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#matchWithFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumReviews"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRegionName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWineAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWineName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWinePrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWineRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWineryName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#matchContext"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#matchFood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adequate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Exceptional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Premium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R._Lopez_de_Heredia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rioja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vina_Tondonia_Gran_Reserva"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Region"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRegionName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Wine"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Wine"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Wine"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Wine"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Wine"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Winery"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineryName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Adequate"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adequate"/>
+        <Class IRI="#WineRating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budget"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budget"/>
+        <Class IRI="#WinePrice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusinessDinner"/>
+        <Class IRI="#Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dessert"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DessertWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exceptional"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exceptional"/>
+        <Class IRI="#WineRating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FewReviews"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FewReviews"/>
+        <Class IRI="#WineReviews"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormalDinner"/>
+        <Class IRI="#Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FruitWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullBodied"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullBodied"/>
+        <Class IRI="#WineBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garnache"/>
+        <Class IRI="#RedWine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighAcidity"/>
+        <Class IRI="#WineAcidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighAcidity"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lambrusco"/>
+        <Class IRI="#RoseWine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightBodied"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LightBodied"/>
+        <Class IRI="#WineBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowAcidity"/>
+        <Class IRI="#WineAcidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowAcidity"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManyReviews"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManyReviews"/>
+        <Class IRI="#WineReviews"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MatureWine"/>
+        <Class IRI="#WineAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MatureWine"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumAcidity"/>
+        <Class IRI="#WineAcidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumAcidity"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumBodied"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumBodied"/>
+        <Class IRI="#WineBody"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midrange"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midrange"/>
+        <Class IRI="#WinePrice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OldWine"/>
+        <Class IRI="#WineAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OldWine"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Premium"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Premium"/>
+        <Class IRI="#WinePrice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <Class IRI="#WineColor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRegionName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiberaDelDueroRed"/>
+        <Class IRI="#RedWine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiojaWhite"/>
+        <Class IRI="#WhiteWine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanticDinner"/>
+        <Class IRI="#Context"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rose"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rose"/>
+        <Class IRI="#WineColor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoseWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satisfactory"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satisfactory"/>
+        <Class IRI="#WineRating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SomeReviews"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SomeReviews"/>
+        <Class IRI="#WineReviews"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SparklingWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verdejo"/>
+        <Class IRI="#WhiteWine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White"/>
+        <Class IRI="#WineColor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WineAcidity"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WineAge"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WineBody"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WineColor"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WinePrice"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WineRating"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WineReviews"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Winery"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineryName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YoungWine"/>
+        <Class IRI="#WineAge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YoungWine"/>
+        <Class IRI="#WineAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRegionName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+        <Class IRI="#Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRegionName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineryName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+        <Class IRI="#Winery"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#WineRating"/>
+        <NamedIndividual IRI="#Adequate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinePrice"/>
+        <NamedIndividual IRI="#Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WineRating"/>
+        <NamedIndividual IRI="#Exceptional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinePrice"/>
+        <NamedIndividual IRI="#Premium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winery"/>
+        <NamedIndividual IRI="#R._Lopez_de_Heredia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="#Rioja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rose"/>
+        <NamedIndividual IRI="#Rose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wine"/>
+        <NamedIndividual IRI="#Vina_Tondonia_Gran_Reserva"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWineryName"/>
+        <NamedIndividual IRI="#R._Lopez_de_Heredia"/>
+        <Literal>R. Lopez de Heredia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRegionName"/>
+        <NamedIndividual IRI="#Rioja"/>
+        <Literal>Rioja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWinePrice"/>
+        <NamedIndividual IRI="#Vina_Tondonia_Gran_Reserva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">187.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWineRating"/>
+        <NamedIndividual IRI="#Vina_Tondonia_Gran_Reserva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWineryName"/>
+        <NamedIndividual IRI="#Vina_Tondonia_Gran_Reserva"/>
+        <Literal>Vina Tondonia Gran Reserva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matchContext"/>
+        <NamedIndividual IRI="#Vina_Tondonia_Gran_Reserva"/>
+        <Literal>Formal Dinner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matchFood"/>
+        <NamedIndividual IRI="#Vina_Tondonia_Gran_Reserva"/>
+        <Literal>Dessert</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAge"/>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBody"/>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPrice"/>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRating"/>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReviews"/>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAge"/>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBody"/>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty IRI="#hasColorInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <ObjectProperty IRI="#hasColorInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPrice"/>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRating"/>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRegion"/>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasReviews"/>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasWinery"/>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <Class IRI="#WineAcidity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <Class IRI="#WineAge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBody"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBody"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBody"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBody"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBody"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBody"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <Class IRI="#WineBody"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <Class IRI="#WineColor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrice"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <Class IRI="#WinePrice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <Class IRI="#WineRating"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRegionName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviews"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviews"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviews"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviews"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviews"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviews"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <Class IRI="#WineReviews"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWinery"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWinery"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWinery"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWinery"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWinery"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWinery"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <Class IRI="#Winery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineryName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+        <Class IRI="#Context"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <Class IRI="#WineAcidity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidity"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcidityInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAge"/>
+        <Class IRI="#WineAge"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAge"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgeInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBody"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBody"/>
+        <Class IRI="#WineBody"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#WineColor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColorInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrice"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrice"/>
+        <Class IRI="#WinePrice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPriceInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#WineRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRatingInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegion"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRegionName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegionInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviews"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviews"/>
+        <Class IRI="#WineReviews"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReviewsInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineAttribute"/>
+        <Class IRI="#WineAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineAttributeInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWinery"/>
+        <Class IRI="#Winery"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWinery"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineryName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWineryInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithContext"/>
+        <Class IRI="#Context"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithContextInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithFood"/>
+        <Class IRI="#Food"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchContext"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#matchWithFoodInverse"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#matchFood"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWineryName"/>
+        <Class IRI="#Winery"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWineryName"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasWineryName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#matchContext"/>
+        <Class IRI="#Context"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#matchFood"/>
+        <Class IRI="#Food"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumReviews"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWineAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWineName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWinePrice"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWineRating"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWineryName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#matchContext"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#matchFood"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasWinePrice"/>
+                <Variable IRI="/w"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Premium"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasWinePrice"/>
+                <Variable IRI="/w"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Midrange"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasWinePrice"/>
+                <Variable IRI="/w"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Budget"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasWineRating"/>
+                <Variable IRI="/w"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Exceptional"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasWineRating"/>
+                <Variable IRI="/w"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Satisfactory"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Wine"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasWineRating"/>
+                <Variable IRI="/w"/>
+                <Variable IRI="/p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="/p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Adequate"/>
+                <Variable IRI="/w"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Adequate</IRI>
+        <Literal>The quality is at an acceptable level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Budget</IRI>
+        <Literal>Budget price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BusinessDinner</IRI>
+        <Literal>Business dinner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Context</IRI>
+        <Literal>Social context in which wine fits best</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Country</IRI>
+        <Literal>Wine&apos;s country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Country</IRI>
+        <IRI>https://dbpedia.org/page/Spanish_wine</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dessert</IRI>
+        <Literal>Types of dessert with which the wine is combined</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DessertWine</IRI>
+        <Literal>Dessert wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#DessertWine</IRI>
+        <IRI>https://dbpedia.org/page/Dessert_wine</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exceptional</IRI>
+        <Literal>Valued as something of high quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FewReviews</IRI>
+        <Literal>A few Reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fish</IRI>
+        <Literal>Type of fish with which the wine combines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Food</IRI>
+        <Literal>Type of food with which the wine goes well</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FormalDinner</IRI>
+        <Literal>Formal dinner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FruitWine</IRI>
+        <Literal>Fruit wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#FruitWine</IRI>
+        <Literal>https://dbpedia.org/page/Fruit_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FullBodied</IRI>
+        <Literal>High in alcohol and have a rich, bold texture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Garnache</IRI>
+        <Literal>Garnache red wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HighAcidity</IRI>
+        <Literal>pH level of 3.0 to 3.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lambrusco</IRI>
+        <Literal>Lambrusco rose wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Lambrusco</IRI>
+        <Literal>https://dbpedia.org/page/Lambrusco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LightBodied</IRI>
+        <Literal>Low in alcohol and have a lighter, more delicate texture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LowAcidity</IRI>
+        <Literal>pH level of 3.5 to 3.7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ManyReviews</IRI>
+        <Literal>Many wine reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MatureWine</IRI>
+        <Literal>Made for bottle ageing, and which has a longer shelf life than young wines.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Meat</IRI>
+        <Literal>Type of meat with which the wine matches</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediumAcidity</IRI>
+        <Literal>pH level of 3.3 to 3.5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediumBodied</IRI>
+        <Literal>Good balance of fruitiness, tannins, and acidity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Midrange</IRI>
+        <Literal>Midrange price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturalWine</IRI>
+        <Literal>Natural wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OldWine</IRI>
+        <Literal>Wine which has been stored in bottle for a long period of time, and which has developed complex flavours and aromas as a result of ageing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Premium</IRI>
+        <Literal>Premium price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Red</IRI>
+        <Literal>Colour of the red wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RedWine</IRI>
+        <Literal>Red wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#RedWine</IRI>
+        <Literal>https://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=58732000&amp;edition=MAIN/2023-03-31&amp;release=&amp;languages=en&amp;latestRedirect=false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Region</IRI>
+        <Literal>Wine&apos;s region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RiberaDelDueroRed</IRI>
+        <Literal>Ribera del Duero red wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RiojaWhite</IRI>
+        <Literal>Rioja white wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RomanticDinner</IRI>
+        <Literal>Romantic dinner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rose</IRI>
+        <Literal>Colour of the rose wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoseWine</IRI>
+        <Literal>Rose wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#RoseWine</IRI>
+        <Literal>https://dbpedia.org/page/Ros%C3%A9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Satisfactory</IRI>
+        <Literal>Rated as meeting expectations or requirements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SomeReviews</IRI>
+        <Literal>Some wine reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SparklingWine</IRI>
+        <Literal>Sparkling wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#SparklingWine</IRI>
+        <IRI>https://dbpedia.org/page/Sparkling_wine</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Verdejo</IRI>
+        <Literal>Verdejo white wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#White</IRI>
+        <Literal>Colour of the white wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteWine</IRI>
+        <Literal>White wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#WhiteWine</IRI>
+        <Literal>https://www.ebi.ac.uk/ols/ontologies/ncit/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C84877&amp;lang=en&amp;viewMode=All&amp;siblings=true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wine</IRI>
+        <Literal>Wine&apos;s parent class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineAcidity</IRI>
+        <Literal>Wine acidity, pH level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineAge</IRI>
+        <Literal>Wine age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineAttribute</IRI>
+        <Literal>Define the main characteristics of the wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineBody</IRI>
+        <Literal>Wine body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineColor</IRI>
+        <Literal>Wine color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WinePrice</IRI>
+        <Literal>Wine price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineRating</IRI>
+        <Literal>Wine rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WineReviews</IRI>
+        <Literal>Number of wine reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Winery</IRI>
+        <Literal>Winery where wine is produced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#YoungWine</IRI>
+        <Literal>Produced and bottled in the same year of harvesting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAcidity</IRI>
+        <Literal>Indicates a relation between Wine and Acidity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAcidityInverse</IRI>
+        <Literal>Inverse between Wine and Acidity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAge</IRI>
+        <Literal>Indicates a relation between Wine and Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAgeInverse</IRI>
+        <Literal>Inverse between Wine and Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasBody</IRI>
+        <Literal>Indicates a relation between Wine and Body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasBodyInverse</IRI>
+        <Literal>Inverse between Wine and Body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasColor</IRI>
+        <Literal>Indicates a relation between Wine and Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasColorInverse</IRI>
+        <Literal>Inverse between Wine and Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNumReviews</IRI>
+        <Literal>Number of reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPrice</IRI>
+        <Literal>Indicates a relation between Wine and Price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPriceInverse</IRI>
+        <Literal>Inverse between Wine and Price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRatingInverse</IRI>
+        <Literal>Inverse between Wine and Rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRegion</IRI>
+        <Literal>Indicates a relation between Wine and Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRegionInverse</IRI>
+        <Literal>Inverse between Wine and Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRegionName</IRI>
+        <Literal>Region name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasReviews</IRI>
+        <Literal>Indicates a relation between Wine and Reviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasReviewsInverse</IRI>
+        <Literal>Inverse between Wine and WineReviews</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineAge</IRI>
+        <Literal>Wine Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineAttribute</IRI>
+        <Literal>Indicates a relation between Wine and WineAttribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineAttributeInverse</IRI>
+        <Literal>Inverse between Wine and WineAttribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineName</IRI>
+        <Literal>Wine name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWinePrice</IRI>
+        <Literal>Wine prices in euros</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineRating</IRI>
+        <Literal>Wine rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWinery</IRI>
+        <Literal>Indicates a relation between Wine and Winery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineryInverse</IRI>
+        <Literal>Inverse between Wine and Winery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasWineryName</IRI>
+        <Literal>Winery name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#matchContext</IRI>
+        <Literal>Context name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#matchFood</IRI>
+        <Literal>Food name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#matchWithContext</IRI>
+        <Literal>Indicates a relation between Wine and Context</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#matchWithContextInverse</IRI>
+        <Literal>Inverse between Wine and Context</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#matchWithFood</IRI>
+        <Literal>Indicates a relation between Wine and Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#matchWithFoodInverse</IRI>
+        <Literal>Inverse between Wine and Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>Tittle: Spanish wine ontology
+Author: Jose Luis Sanchez Escoda</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

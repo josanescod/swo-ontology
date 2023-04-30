@@ -1,0 +1,1640 @@
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/1.0.0> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo> <http://purl.org/dc/elements/1.1/title> "Spanish Wine Ontology" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo> <http://purl.org/dc/terms/creator> "Jose Luis Sanchez Escoda" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo> <http://www.w3.org/2002/07/owl#versionInfo> "Version release: 3.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Acidity" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid9 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAcidityInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Acidity" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid13 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid14 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid15 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Age" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid18 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid19 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid20 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasAgeInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Age" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid23 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid24 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid25 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Body" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid29 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid30 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasBodyInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Body" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid33 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid34 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid35 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Color" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid38 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid39 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid40 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasColorInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Color" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid43 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid44 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid45 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Price" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid49 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid50 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasPriceInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Price" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid53 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid54 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid55 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid58 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid59 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid60 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRatingInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Rating" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid63 .
+_:genid63 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid63 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid64 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid65 .
+_:genid65 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid65 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid66 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Region" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid67 .
+_:genid67 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid67 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid70 .
+_:genid70 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid70 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid71 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid72 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Region" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid74 .
+_:genid74 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid75 .
+_:genid75 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid75 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid76 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid77 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Reviews" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid79 .
+_:genid79 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid80 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid81 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid82 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasReviewsInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and WineReviews" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid85 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid86 .
+_:genid86 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid86 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid87 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and WineAttribute" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid90 .
+_:genid90 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid90 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid91 .
+_:genid91 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid91 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid92 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and WineAttribute" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid94 .
+_:genid94 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid95 .
+_:genid95 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid95 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid96 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid97 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#range> _:genid98 .
+_:genid98 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid98 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Winery" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid99 .
+_:genid99 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid99 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid101 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid102 .
+_:genid102 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid102 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid102 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid103 .
+_:genid103 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid103 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid103 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid104 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid104 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Winery" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid105 .
+_:genid105 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid105 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid106 .
+_:genid106 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid106 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid107 .
+_:genid107 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid107 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid108 .
+_:genid108 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid108 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid108 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid109 .
+_:genid109 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid109 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid109 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Context" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid110 .
+_:genid110 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid110 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid111 .
+_:genid111 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid111 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid112 .
+_:genid112 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid112 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid112 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid113 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid113 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid114 .
+_:genid114 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid114 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid114 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Context" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid115 .
+_:genid115 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid115 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid116 .
+_:genid116 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid116 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid117 .
+_:genid117 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid117 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid117 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid118 .
+_:genid118 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid118 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid118 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid119 .
+_:genid119 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid119 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid119 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a relation between Wine and Food" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid120 .
+_:genid120 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid120 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid121 .
+_:genid121 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid121 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid122 .
+_:genid122 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid122 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid122 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid123 .
+_:genid123 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid123 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid123 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#range> _:genid124 .
+_:genid124 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid124 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid124 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse between Wine and Food" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasNumReviews
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasNumReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasNumReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasNumReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of reviews" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> <http://www.w3.org/2000/01/rdf-schema#comment> "Region name" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAge
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine Age" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine name" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine prices in euros" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine rating" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid125 .
+_:genid125 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid125 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid125 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> <http://www.w3.org/2000/01/rdf-schema#comment> "Winery name" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Context name" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> <http://www.w3.org/2000/01/rdf-schema#comment> "Food name" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#BusinessDinner
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#BusinessDinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#BusinessDinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#BusinessDinner> <http://www.w3.org/2000/01/rdf-schema#comment> "Business dinner" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> <http://www.w3.org/2000/01/rdf-schema#comment> "Social context in which wine fits best" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's country" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Dessert
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Dessert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Dessert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Dessert> <http://www.w3.org/2000/01/rdf-schema#comment> "Types of dessert with which the wine is combined" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#DessertWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#DessertWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#DessertWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#DessertWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Dessert wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#FewReviews
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FewReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FewReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FewReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FewReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "A few Reviews" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Fish
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Fish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Fish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Fish> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of fish with which the wine combines" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of food with which the wine goes well" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#FormalDinner
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FormalDinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FormalDinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FormalDinner> <http://www.w3.org/2000/01/rdf-schema#comment> "Formal dinner" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#FruitWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FruitWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FruitWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FruitWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Fruit wine" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FruitWine> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Fruit_wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#FullBodied
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FullBodied> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FullBodied> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FullBodied> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#FullBodied> <http://www.w3.org/2000/01/rdf-schema#comment> "High in alcohol and have a rich, bold texture" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Garnache
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Garnache> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Garnache> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Garnache> <http://www.w3.org/2000/01/rdf-schema#comment> "Garnache red wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#HighAcidity
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#HighAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#HighAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#HighAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#HighAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "pH level of 3.0 to 3.3" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Lambrusco
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Lambrusco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Lambrusco> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#RoseWine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Lambrusco> <http://www.w3.org/2000/01/rdf-schema#comment> "Lambrusco rose wine" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Lambrusco> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Lambrusco" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#LightBodied
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LightBodied> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LightBodied> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LightBodied> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LightBodied> <http://www.w3.org/2000/01/rdf-schema#comment> "Low in alcohol and have a lighter, more delicate texture" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#LowAcidity
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LowAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LowAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LowAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#LowAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "pH level of 3.5 to 3.7" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#ManyReviews
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#ManyReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#ManyReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#ManyReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#ManyReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Many wine reviews" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#MatureWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MatureWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MatureWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MatureWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MatureWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Made for bottle ageing, and which has a longer shelf life than young wines." .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Meat
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Meat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Meat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Meat> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of meat with which the wine matches" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumAcidity
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "pH level of 3.3 to 3.5" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumBodied
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumBodied> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumBodied> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumBodied> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumBodied> <http://www.w3.org/2000/01/rdf-schema#comment> "Good balance of fruitiness, tannins, and acidity." .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Midrange
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Midrange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Midrange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Midrange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Midrange> <http://www.w3.org/2000/01/rdf-schema#comment> "Midrange price" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#NaturalWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#NaturalWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#NaturalWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#NaturalWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Natural wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#OldWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#OldWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#OldWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#OldWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#OldWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine which has been stored in bottle for a long period of time, and which has developed complex flavours and aromas as a result of ageing" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Red
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Red> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Red> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Red> <http://www.w3.org/2000/01/rdf-schema#comment> "Colour of the red wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Red wine" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://browser.ihtsdotools.org/?perspective=full&conceptId1=58732000&edition=MAIN/2023-03-31&release=&languages=en&latestRedirect=false" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid126 .
+_:genid126 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid126 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid126 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid127 .
+_:genid127 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid127 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid127 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's region" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiberaDelDueroRed
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiberaDelDueroRed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiberaDelDueroRed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiberaDelDueroRed> <http://www.w3.org/2000/01/rdf-schema#comment> "Ribera del Duero red wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiojaWhite
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiojaWhite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiojaWhite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiojaWhite> <http://www.w3.org/2000/01/rdf-schema#comment> "Rioja white wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#RomanticDinner
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RomanticDinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RomanticDinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RomanticDinner> <http://www.w3.org/2000/01/rdf-schema#comment> "Romantic dinner" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#RoseWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RoseWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RoseWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RoseWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Rose wine" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#RoseWine> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Ros%C3%A9" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Satisfactory
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Satisfactory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Satisfactory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Satisfactory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Satisfactory> <http://www.w3.org/2000/01/rdf-schema#comment> "Rated as meeting expectations or requirements" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#SomeReviews
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#SomeReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#SomeReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#SomeReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#SomeReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Some wine reviews" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#SparklingWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#SparklingWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Sparkling wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Verdejo
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Verdejo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Verdejo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Verdejo> <http://www.w3.org/2000/01/rdf-schema#comment> "Verdejo white wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#White
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#White> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#White> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#White> <http://www.w3.org/2000/01/rdf-schema#comment> "Colour of the white wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#comment> "White wine" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://www.ebi.ac.uk/ols/ontologies/ncit/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C84877&lang=en&viewMode=All&siblings=true" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid128 .
+_:genid128 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid128 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid129 .
+_:genid129 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid129 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid130 .
+_:genid130 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid130 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid130 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid131 .
+_:genid131 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid131 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid131 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid132 .
+_:genid132 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid132 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid132 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's parent class" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine acidity, pH level" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine age" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "Define the main characteristics of the wine" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine body" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine color" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine price" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine rating" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of wine reviews" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid133 .
+_:genid133 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid133 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid133 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid134 .
+_:genid134 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid134 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid134 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> <http://www.w3.org/2000/01/rdf-schema#comment> "Winery where wine is produced" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#YoungWine
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#YoungWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#YoungWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#YoungWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#YoungWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Produced and bottled in the same year of harvesting" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#R._Lopez_de_Heredia
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#R._Lopez_de_Heredia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#R._Lopez_de_Heredia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#R._Lopez_de_Heredia> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> "R. Lopez de Heredia" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rioja
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rioja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rioja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rioja> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> "Rioja" .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose> .
+# 
+# http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice> "187.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating> "4.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> "Vina Tondonia Gran Reserva" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> "Formal Dinner" .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Vina_Tondonia_Gran_Reserva> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> "Dessert" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate> <http://www.w3.org/2000/01/rdf-schema#comment> "The quality is at an acceptable level" .
+# 
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget> <http://www.w3.org/2000/01/rdf-schema#comment> "Budget price" .
+# 
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional> <http://www.w3.org/2000/01/rdf-schema#comment> "Valued as something of high quality" .
+# 
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium> <http://www.w3.org/2000/01/rdf-schema#comment> "Premium price" .
+# 
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose> <http://www.w3.org/2000/01/rdf-schema#comment> "Colour of the rose wine" .
+# 
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "Tittle: Spanish wine ontology\nAuthor: Jose Luis Sanchez Escoda" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid135 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid135 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid135 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid136 .
+_:genid136 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid136 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid137 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid137 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid137 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid138 .
+_:genid138 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid138 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid138 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid139 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid139 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid139 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid140 .
+_:genid140 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid140 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid140 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid141 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid141 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid142 .
+_:genid142 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid142 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid142 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid143 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid143 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid143 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid144 .
+_:genid144 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid144 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid144 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid145 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid145 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid145 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid146 .
+_:genid146 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid146 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid146 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid147 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid147 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid147 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid148 .
+_:genid148 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid148 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid148 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid149 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid149 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid149 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid149 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid150 .
+_:genid150 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid150 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid150 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid151 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineName> .
+_:genid151 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid151 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid151 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid152 .
+_:genid152 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid152 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid152 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid153 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext> .
+_:genid153 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid153 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid153 <http://www.w3.org/2002/07/owl#equivalentClass> _:genid154 .
+_:genid154 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid154 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid154 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid155 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> .
+_:genid155 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid155 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid155 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country> .
+# 
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid156 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasRegionName> .
+_:genid156 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid156 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid156 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region> .
+# 
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid157 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryName> .
+_:genid157 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid157 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid157 <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid158 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid158 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid158 <http://www.w3.org/2000/01/rdf-schema#label> "S3" .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid158 <http://www.w3.org/2003/11/swrl#body> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160 .
+_:genid160 <http://www.w3.org/2003/11/swrl#arguments> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid160 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid164 .
+_:genid164 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid164 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid164 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid166 .
+_:genid166 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid166 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid158 <http://www.w3.org/2003/11/swrl#head> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid168 .
+_:genid168 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid168 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid169 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid169 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid169 <http://www.w3.org/2000/01/rdf-schema#label> "S2" .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid169 <http://www.w3.org/2003/11/swrl#body> _:genid180 .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid178 .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid171 .
+_:genid171 <http://www.w3.org/2003/11/swrl#arguments> _:genid173 .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid172 .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid171 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#lessThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid175 .
+_:genid175 <http://www.w3.org/2003/11/swrl#arguments> _:genid177 .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid176 .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "200"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid175 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid179 .
+_:genid179 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid179 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid179 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid181 .
+_:genid181 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid181 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid169 <http://www.w3.org/2003/11/swrl#head> _:genid182 .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid183 .
+_:genid183 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid183 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Midrange> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid184 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid184 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid184 <http://www.w3.org/2000/01/rdf-schema#label> "S1" .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid184 <http://www.w3.org/2003/11/swrl#body> _:genid191 .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid189 .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid185 .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid186 .
+_:genid186 <http://www.w3.org/2003/11/swrl#arguments> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid187 .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "200"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid186 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid190 .
+_:genid190 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid190 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid190 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinePrice> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid192 .
+_:genid192 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid192 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid184 <http://www.w3.org/2003/11/swrl#head> _:genid193 .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid194 .
+_:genid194 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid194 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid195 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid195 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid195 <http://www.w3.org/2000/01/rdf-schema#label> "S5" .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid195 <http://www.w3.org/2003/11/swrl#body> _:genid206 .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid204 .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid200 .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid196 .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid197 .
+_:genid197 <http://www.w3.org/2003/11/swrl#arguments> _:genid199 .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid198 .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid197 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid201 .
+_:genid201 <http://www.w3.org/2003/11/swrl#arguments> _:genid203 .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid202 .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid201 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid205 .
+_:genid205 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid205 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid205 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating> .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid207 .
+_:genid207 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid207 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid195 <http://www.w3.org/2003/11/swrl#head> _:genid208 .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid209 .
+_:genid209 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid209 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Satisfactory> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid210 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid210 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid210 <http://www.w3.org/2000/01/rdf-schema#label> "S4" .
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid210 <http://www.w3.org/2003/11/swrl#body> _:genid217 .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid215 .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid211 .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid212 .
+_:genid212 <http://www.w3.org/2003/11/swrl#arguments> _:genid214 .
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid213 .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid212 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid216 .
+_:genid216 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid216 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid216 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating> .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid218 .
+_:genid218 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid218 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid210 <http://www.w3.org/2003/11/swrl#head> _:genid219 .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid220 .
+_:genid220 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid220 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate> .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid221 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid221 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid221 <http://www.w3.org/2000/01/rdf-schema#label> "S6" .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid221 <http://www.w3.org/2003/11/swrl#body> _:genid228 .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid226 .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid222 .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid223 .
+_:genid223 <http://www.w3.org/2003/11/swrl#arguments> _:genid225 .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid224 .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid223 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid227 .
+_:genid227 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/p> .
+_:genid227 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid227 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineRating> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid229 .
+_:genid229 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid229 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid221 <http://www.w3.org/2003/11/swrl#head> _:genid230 .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid231 .
+_:genid231 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/josan/ontologies/2023/3/swo/w> .
+_:genid231 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

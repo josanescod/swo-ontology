@@ -1,0 +1,684 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "title" : {
+      "undefined" : "Spanish Wine Ontology"
+    },
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "version" : "Version release: 3.0",
+    "author" : [ "Jose Luis Sanchez Escoda" ],
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/3.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Jose Luis Sanchez Escoda",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "Version release: 3.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Spanish Wine Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Winery",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Adequate",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "1",
+    "superClasses" : [ "2", "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Meat",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#MatureWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "7",
+    "superClasses" : [ "2", "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Midrange",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "9",
+    "superClasses" : [ "10", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineReviews",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "12", "13", "14" ],
+    "id" : "11",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#SparklingWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WhiteWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "18", "19" ],
+    "id" : "17",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Garnache",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiberaDelDueroRed",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "22",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#HighAcidity",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "23",
+    "superClasses" : [ "24", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Context",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "26", "27", "28" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAcidity",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "29", "23", "30" ],
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#LightBodied",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "34",
+    "superClasses" : [ "35", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Premium",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "38",
+    "superClasses" : [ "10", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineBody",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "34", "40", "41" ],
+    "id" : "35",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineColor",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "44", "45", "46" ],
+    "id" : "43",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAge",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "48", "49", "7" ],
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#LowAcidity",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "30",
+    "superClasses" : [ "24", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Budget",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "51",
+    "superClasses" : [ "10", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Region",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "52",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Verdejo",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "18",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#OldWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "49",
+    "superClasses" : [ "2", "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Lambrusco",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#DessertWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "57",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Exceptional",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "58",
+    "superClasses" : [ "2", "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Fish",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "59",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Food",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "59", "4", "60" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#FullBodied",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "41",
+    "superClasses" : [ "35", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#RomanticDinner",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "27",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Rose",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "46",
+    "superClasses" : [ "43", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#RoseWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "55" ],
+    "id" : "56",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#FruitWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "68",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#RiojaWhite",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "19",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Country",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "52" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumBodied",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "40",
+    "superClasses" : [ "35", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Red",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "45",
+    "superClasses" : [ "43", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#ManyReviews",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "13",
+    "superClasses" : [ "11", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#FormalDinner",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "26",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#RedWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "22", "20" ],
+    "id" : "21",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#MediumAcidity",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "29",
+    "superClasses" : [ "24", "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Dessert",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "60",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Wine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "21", "15", "77", "17", "68", "56", "57" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#YoungWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "48",
+    "superClasses" : [ "2", "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#FewReviews",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "12",
+    "superClasses" : [ "11", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineAttribute",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "29", "1", "34", "7", "38", "9", "46", "35", "11", "43", "12", "48", "30", "8", "3", "44", "83", "51", "40", "10", "23", "49", "45", "13", "58", "24", "14", "41" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WineRating",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "58", "1", "83" ],
+    "id" : "3",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#NaturalWine",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "77",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#White",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "44",
+    "superClasses" : [ "43", "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#BusinessDinner",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "28",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#Satisfactory",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "83",
+    "superClasses" : [ "2", "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#WinePrice",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "subClasses" : [ "51", "38", "9" ],
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#SomeReviews",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "instances" : 0,
+    "id" : "14",
+    "superClasses" : [ "11", "2" ]
+  } ],
+  "property" : [ {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "84",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFood",
+    "inverse" : "37",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "5",
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttribute",
+    "inverse" : "64",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "2",
+    "domain" : "16",
+    "subproperty" : [ "65", "47", "31", "61", "32", "66", "67" ],
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWinery",
+    "inverse" : "70",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "0",
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithFoodInverse",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "16",
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContext",
+    "inverse" : "72",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "25",
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchWithContextInverse",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "16",
+    "domain" : "25",
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchFood",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "75",
+    "domain" : "16",
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#matchContext",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "85",
+    "domain" : "16",
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineAttributeInverse",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "16",
+    "domain" : "2",
+    "subproperty" : [ "39", "50", "73", "82", "54", "62", "6" ],
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo#hasWineryInverse",
+    "baseIri" : "http://www.semanticweb.org/josan/ontologies/2023/3/swo",
+    "range" : "16",
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "70"
+  } ]
+}
